@@ -1,0 +1,10 @@
+framework module signalKit {
+  umbrella header "signalKit.h"
+
+  export *
+  module * { export * }
+}
+
+module signalKit.Swift {
+    header "signalKit-Swift.h"
+}
